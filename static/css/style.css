@@ -179,7 +179,7 @@ progress::-moz-progress-value {
 }
 
 .weixin img{
-    width: 200px;
+    width: 250px;
 }
 
 .left-label {
@@ -191,13 +191,13 @@ progress::-moz-progress-value {
     margin: 0 auto;
     margin-top:20px;
     margin-bottom: 10px;
-    background-image:url('https://avatars0.githubusercontent.com/u/21081491?v=3&s=460');
+    background-image:url('../image/header.jpg');
     background-size: 120%;
     background-position:center;
-    border-radius:50%;
-    border:5px solid #607d8b;
+    border-radius:-50%;
+    border:0px solid #607d8b;
     width:160px;
-    height:160px;
+    height:210px;
 }
 
 
