@@ -140,13 +140,13 @@
                         <h4>熟悉常用算法及数据结构。</h4>
                     </li>
                     <li>
-                        <h4>了解LAMP/LNMP架构及部署。</h4>
+                        <h4>熟悉LAMP/LNMP架构及部署。</h4>
                     </li>
                     <li>
-                        <h4>了解Memcahed、Redis等缓存工具。</h4>
+                        <h4>熟悉Memcahed、Redis等缓存工具。</h4>
                     </li>
                     <li>
-                        <h4>具有C、C++、java语言基础。</h4>
+                        <h4>熟悉C、C++、java语言基础。</h4>
                     </li>
                 </ul>
             </div>
@@ -200,6 +200,15 @@
                             5、后台实现订单管理、会员管理、商品管理等模块。
                         </p>
                     </li>
+                    <li>
+                        <h3>基于PHP+Redis架构的秒杀系统</h3>
+                        <p>
+                            1、根据数据表中的库存、创建Redis商品队列。<br/>
+                            2、进行秒杀操作、先查询Redis队列中剩余库存。<br/>
+                            3、Redis队列中有剩余，则在Mysql中创建订单，减少库存，抢购成功。<br/>
+                            4、Redis队列中没有剩余，则提示库存不足，抢购失败。
+                        </p>
+                    </li>
                 </ul>
             </div>
             <div class="aboutme info-unit right-paragraph">
@@ -212,5 +221,4 @@
         </div>
     </div>
 </body>
-
 </html>
