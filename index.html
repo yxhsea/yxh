@@ -32,7 +32,7 @@
                     <input type="text" id="avatar-url">
                     <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
                 </div>
-                <h4 id="persona-tag" >GoLang开发工程师</h4>
+                <h4 id="persona-tag" >后端开发工程师</h4>
             </div>
             <div class="profile info-unit">
                 <h2 class="info-header"><i class="iconfont icon-person"></i> <span class="info-title">基本信息</span></h2>
@@ -65,7 +65,7 @@
                     <li>
                         <label class="left-label">技术博客</label><span class="label-value">cnblogs.com/yxhblogs</span></li>
                     <li>
-                        <label class="left-label">Github</label><span class="label-value">github.com/bluesimle</span></li>
+                        <label class="left-label">Github</label><span class="label-value">github.com/yxhsea</span></li>
                 </ul>
             </div>
             <div class="skill info-unit">
@@ -77,16 +77,24 @@
                         <progress value="70" max="100"></progress>
                     </li>
                     <li>
-                        <label class="left-label">php/mysql</label>
+                        <label class="left-label">Python</label>
+                        <progress value="70" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">PHP/Swoole</label>
                         <progress value="80" max="100"></progress>
                     </li>
                     <li>
-                        <label class="left-label">js/jquery</label>
-                        <progress value="60" max="100"></progress>
+                        <label class="left-label">MySQL/Redis</label>
+                        <progress value="80" max="100"></progress>
                     </li>
                     <li>
                         <label class="left-label">Linux/shell</label>
                         <progress value="50" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">js/jquery</label>
+                        <progress value="60" max="100"></progress>
                     </li>
                 </ul>
             </div>
@@ -95,10 +103,10 @@
                 <hr>
                 <ul class="stack-list">
                     <li>
-                        <label class="left-label">前端</label><span class="label-value">js、vue、nodeJs</span></li>
+                        <label class="left-label">前端</label><span class="label-value">js\jquery\bootstrap</span></li>
                     </li>
                     <li>
-                        <label class="left-label">后端</label><span class="label-value">GoLang、PHP、Linux</span></li>
+                        <label class="left-label">后端</label><span class="label-value">PHP\GoLang\Python</span></li>
                     </li>
                 </ul>
             </div>
@@ -124,22 +132,31 @@
                 <hr>
                 <ul class="experience-list skill">
                     <li>
-                        <h4>熟悉使用GoLang语言编程，使用Gin框架、go-micro微服务框架。</h4>
+                        <h4>熟悉 GoLang 编程语言，熟练使用 Gin 框架、go-micro 微服务框架。</h4>
                     </li>
                     <li>
-                        <h4>熟悉使用PHP语言编程，html+div+css+javascript等前端技术。</h4>
+                        <h4>熟悉 PHP 编程语言，熟悉 Swoole 异步高性能通信框架。</h4>
                     </li>
                     <li>
-                        <h4>熟悉ThinkPHP、YII、CI、Laravel等开源框架。</h4>
+                        <h4>熟悉 Laravel、YII、CI、ThinkPHP 开源框架。</h4>
                     </li>
                     <li>
-                        <h4>熟练使用Linux命令、shell、LAMP/LNMP架构及部署、服务器的部署。</h4>
+                        <h4>熟悉 Python 编程语言，熟练使用 Pandas 和 Numpy 类库进行数据分析与统计。</h4>
                     </li>
                     <li>
-                        <h4>熟悉Docker容器技术、K8s容器编排和集群管理、Supervisor进程管理器。</h4>
+                        <h4>熟悉 Linux 常用操作命令、熟练使用 Shell 脚本进行自动化任务的编写。</h4>
                     </li>
                     <li>
-                        <h4>熟悉Redis、Memcahed、Etcd缓存数据库、KafKa队列、ElasticSearch检索引擎。</h4>
+                        <h4>熟悉 Docker 容器技术、基本的 K8s 容器编排与集群管理、Supervisor 进程管理器。</h4>
+                    </li>
+                    <li>
+                        <h4>熟悉 MySQL 数据库的表结构设计与索引优化，熟悉 MongoDB 数据存储系统。</h4>
+                    </li>
+                    <li>
+                        <h4>熟悉 Redis 常用数据结构及其原理，能结合具体的业务场景选择合适的数据结构。</h4>
+                    </li>
+                    <li>
+                        <h4>熟悉 RabbitMQ 消息队列的使用、Elasticsearch 全文检索引擎的使用。</h4>
                     </li>
                 </ul>
             </div>
@@ -148,42 +165,43 @@
                 <hr>
                 <ul class="experience-list">
                     <li>
+                        <h3>深圳大地零一科技有限公司(2018.7-至今)--后端工程师</h3>
+                        <p>1、开发基于 Python 的 Pandas 库的数据分析脚本，主要功能包括：会员画像数据分析，会员积分数据报表分析与统计。使用多进程对积分数据报表执行并行计算，与数据中心的仓库 AWS RedShift 进行数据交互。
+                            <br/>
+                            2、开发基于 Go 语言的账号系统数据双写中间件，主要功能是：使用 Gin 作为 http 数据包的处理框架，再将 http request 适配到不同的系统，实现数据的双写。
+                            <br/>
+                            3、参与基于 PHP 的 Swoole 异步通信框架开发的会员积分发放引擎。主要功能负责：使用 SnowFlake 雪花算法生成事件数据的全局唯一 ID并将数事件数据存储入 MongoDB 数据库、积分发分规则的匹配并使用协程提高系统的并发处理能力。
+                            <br/>
+                            4、参与基于 PHP 的 Laravel 框架开发的会员积分系统控制台，主要负责功能：积分发放规则的生成、与积分发放引擎的数据交互。
+                            <br/>
+                            5、参与基于 PHP 的 Laravel 框架开发的会员 Sass 系统，主要负责功能：会员平台系统与租户系统的伙伴管理模块，使用 Elasticsearch 对会员标签功能实现联想输入。
+                            <br/>
+                        </p>
+                    </li>
+                    <li>
                         <h3>深圳翻番信息科技有限公司(2017.12-2018.7)--Go工程师(项目负责人)</h3>
-                        <p>1、负责开发在线直播抓娃娃项目。<br/>
-                           2、开发基于Mqtt协议的设备通信。<br/>
-                           3、开发基于WebSocket的视频直播方案、视频弹幕方案。<br/>
-                           4、开发基于Gin，用户端、商户端、运营端的Api服务。<br/>
-                           5、开发基于Go-micro的Rpc微服务、构建富友支付模块微服务。<br/>
-                           6、构建自动生成Api文档、构建项目自动部署流程、设计Api签名机制。<br/>
-                           7、使用Docker容器技术部署项目。<br/>
+                        <p>1、负责设计并开发在线直播抓娃娃项目。<br/>
+                           2、开发基于 Mqtt 协议的设备通信方案。<br/>
+                           3、开发基于 Go WebSocket 的视频直播方案、视频弹幕方案。<br/>
+                           4、开发基于 Gin 框架，用户端、商户端、运营端的 Api 微服务。<br/>
+                           5、开发基于 Go-micro 的 Rpc 微服务、构建富友支付模块微服务。<br/>
+                           6、构建自动生成 Swagger Api 文档、Jenkins 项目自动部署流程。<br/>
+                           7、使用 Docker 容器技术部署项目。<br/>
                         </p>
                     </li>
                     <li>
                         <h3>深圳金钱包科技有限公司(2017.9-2017.12)--PHP工程师</h3>
-                        <p>1、参与基于Yii的九秒贷App后台的开发。<br/>
+                        <p>1、参与基于 Yii 的九秒贷 App 后台的开发。<br/>
                            2、后台运营模块活动统计、渠道管理的开发。<br/>
-                           3、参与基于Lumen风控系统微服务的构建、接入芝麻信用。<br/>
-                           4、参与千万级数据表的查询优化。
+                           3、参与基于 Lumen 风控系统微服务的构建、接入支付宝的芝麻信用。<br/>
+                           4、参与千万级数据表查询语句的索引优化。
                         </p>
                     </li>
                     <li>
                         <h3>湖南极睿信息科技有限公司(2016.10-2017.8)--PHP工程师</h3>
                         <p>1、参与基于微信公众平台的迷上秀投票系统开发、负责用户中心模块开发。<br/>
-                           2、负责要爆料新闻App后台开发、App的api开发、接入七牛云存储平台、视频播放。<br/>
+                           2、负责要爆料新闻 App 后台开发、App 的 api 开发、接入七牛云存储平台。<br/>
                            3、负责水先森微信商城的开发、包括微信授权登录、微信支付、订单管理等功能。
-                        </p>
-                    </li>
-                    <li>
-                        <h3>华为长沙电信软件事业部(2016.9-2016.10)--TTL工程师</h3>
-                        <p>
-                            1、安装部署华为E9000刀片服务器。<br/>
-                            2、CBS系统安装及联调、巡检整改、安全加固、集成设计。<br/>
-                            3、CBS系统内部网元及SLB互连调试。
-                        </p>
-                    </li>
-                    <li>
-                        <h3>长沙东勤信息科技发展有限公司(2015.11-2016.9)--PHP工程师</h3>
-                        <p>参与公司的《湘潭市一医院廉洁风险防控系统》及《湘潭县人民医院OA系统及廉洁防控监控系统》项目的开发。使用Git进行团队分布式开发及版本控制。
                         </p>
                     </li>
                 </ul>
@@ -193,40 +211,21 @@
                 <hr>
                 <ul class="experience-list">
                     <li>
-                        <h3>基于Go语言的秒杀系统</h3>
+                        <h3>基于 Go 语言的秒杀系统</h3>
                         <p>
                             1、系统架构分三层，管理层、接入层、逻辑层。<br/>
-                            2、系统采用Redis队列、Etcd动态配置。<br/>
+                            2、系统采用 Redis 队列、Etcd 动态配置。<br/>
                             3、对用户请求进行黑白名单配置、流量限制(秒级限制及分级限制)。<br/>
                             4、对用户请求参数进行签名校验。<br/>
-                            5、对抢购成功用户颁发Token令牌。
+                            5、对抢购成功用户颁发 Token 令牌。
                         </p>
                     </li>
                     <li>
-                        <h3>基于Thinkphp5.0的通用后台管理系统</h3>
-                        <p>
-                            1、本套系统采用ThinPHP开源框架搭建。<br/>
-                            2、实现了Auth权限管理、权限节点控制。<br/>
-                            3、实现了系统的钩子、插件化开发的功能。<br/>
-                            4、实现了分模块开发、降低代码的耦合度。<br/>
-                            5、所有操作均采用ajax异步完成。<br/>
-                        </p>
-                    </li>
-                    <!-- <li>
-                        <h3>基于Thinkphp3.2的社区问答平台</h3>
-                        <p>
-                            1、本套系统实现了用户管理，登录、注册功能。<br/>
-                            2、使用PHP+Mysql编程实现。<br/>
-                            3、实现了社区的提问、回答、问题的搜索等功能。<br/>
-                            4、同时有平台的后台管理及审核问题的功能。<br/>
-                        </p>
-                    </li> -->
-                    <li>
-                        <h3>基于Laravel的微商城</h3>
+                        <h3>基于 Laravel 的微商城</h3>
                         <p>
                             1、实现会员登录、注册功能、数据双向验证功能。<br/>
                             2、实现手机短信验证、邮件激活账号、邮件通知。<br/>
-                            3、ajax提交数据、利用中间件进行登录验证。<br/>
+                            3、ajax 提交数据、利用中间件进行登录验证。<br/>
                             4、调用支付宝支付、微信支付接口，实现支付功能。<br/>
                             5、后台实现订单管理、会员管理、商品管理等模块。
                         </p>
